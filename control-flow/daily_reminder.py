@@ -16,5 +16,7 @@ match priority:
 
 if time_bound == "yes":
     message += " that requires immediate attention today!"
+if time_bound == "no":
+    message += ". Consider completing it when you have free time."
 
 print(message)
